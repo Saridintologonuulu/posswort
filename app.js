@@ -35,8 +35,7 @@ btns.forEach( (btn, index ) =>{
             my phone number is<h4>${userinfo.phone}</h4>`
         }else if(index === 5){
             text.innerHTML = `
-            
-            my posswort is<h4>${userinfo.posswort}</h4>`
+            My password is <h4>${userinfo.login.password}</h4>`
         }
     })
 })
